@@ -1,0 +1,20 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "http://localhost:3000/alexandDanshipit.schema.json",
+    "title": "Order",
+    "description": "Order for ShipIt.",
+    "type": "object",
+    "properties": {
+      "productId": {"type": "integer"},
+      "name": {"type": "string"},
+      "addr": {"type": "string"},
+      "zip": {"type": "string"}
+    },
+    "additionalProperties": false,
+    "required": [
+      "productId",
+      "name",
+      "addr",
+      "zip"
+    ]
+  }
