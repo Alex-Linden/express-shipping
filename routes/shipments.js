@@ -4,7 +4,7 @@ const express = require("express");
 const router = new express.Router();
 
 const jsonschema = require("jsonschema");
-const orderSchema = require("../shipItSchema.json");
+const orderSchema = require("../schema/order.json");
 
 const { shipProduct } = require("../shipItApi");
 const { BadRequestError } = require("../expressError")
